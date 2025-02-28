@@ -1,0 +1,111 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    padding: 10px;
+    flex-wrap: wrap;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.nav-link:hover {
+    background-color: red;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav-link {
+        padding: 10px;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    section {
+        padding: 10px;
+    }
+}
+
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px 0px 0px;
+}
+
+input, button {
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+}
+
+img {
+    max-width: 50%;
+    height: auto;
+}
+
+footer {
+    text-align: center;
+    padding: 5px;
+    background: #333;
+    color: white;
+}
+
+footer #light:hover{
+    color: yellow;
+}
+
+.dev a{
+    text-decoration: none;
+    color: red;
+}
+
+.rounded-circle a {
+    color: white;
+    padding: 5px;
+}
+
+#icon:hover {
+    color: aqua;
+}
+
+input, textarea {
+    width: 90%;
+}
+
+#btn:hover {
+    background-color: aqua;
+}
+
+#btn {
+    background-color: lawngreen;
+    cursor: pointer;
+}
+
